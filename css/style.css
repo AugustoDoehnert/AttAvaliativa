@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: RGB(65, 31, 9);
+    font-family: 'Anton', sans-serif;
+}
+
+.navbar-expand-lg {
+    background-color: RGB(255, 194, 52);
+}
+
+main {
+    background-color: RGB(255, 194, 52);
+}
+
+.texto__main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.lanchetext {
+    align-self: center;
+    justify-items: center;
+
+}
+
+.lanchetext span {
+    padding: 5;
+    font-size: 20px;
+    border: 2px dashed RGB(65, 31, 9);
+}
+
+.lanchetext h1 {
+    font-size: 150px;
+}
+
+.lanchetext h2 {
+    font-size: 100px;
+}
+
+.lancheimg {
+    width: 570px;
+    height: 455px;
+    background-image: url(../img/main/lanche-principal.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.delivery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.delivery img {
+    color: RGB(65, 31, 9);
+}
+
+.container__sessao__um {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.fundo__um {
+    background-image: url(../img/sessao1/fundo1.png);
+    background-repeat: no-repeat;
+    width: 549px;
+    height: 387px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.fundo__um span {
+    font-size: 20px;
+    color: white;
+}
+
+.fundos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fundo__dois {
+    background-image: url(../img/sessao1/fundo2.png);
+    background-repeat: no-repeat;
+    width: 548px;
+    height: 177px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.fundo__dois span {
+    font-size: 20px;
+    color: white;
+}
+
+.fundo__tres {
+    background-image: url(../img/sessao1/fundo3.png);
+    background-repeat: no-repeat;
+    width: 548px;
+    height: 177px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.fundo__tres span {
+    font-size: 20px;
+    color: white;
+}
+
+.texto__sessao2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-justify: auto;
+}
+
+.texto__sessao2 h4 {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: RGB(255, 194, 52);
+}
